@@ -1,1 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.nav_menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    list-style: none;
+}
+.link{
+    margin-left: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+.first_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+    border-bottom: 2px solid #b4b4b4;
+    
+}
+.foto{
+    margin-right: 20px;
+}
+.profession{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #000000;
+    
+}
+.my_name{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #212121;
+}
+.second_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #b4b4b4;
+}
+.section_profile{
+    width: 100%;
+}
+.section_title{
+    text-transform: uppercase;
+}
+.text_profile{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000000;
+}
+.section_contacts{
+    margin-left: 50px;
+}
+.contact_list{
+    padding: 0;
+}
+.item_contact{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000000;
+}
+.therd_section{
+    display: flex;
 
+}
+.education_block{
+    width: 45%;
+    margin-right: 100px;
+}
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills_block{
+    width: 45%;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
